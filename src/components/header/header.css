@@ -14,14 +14,10 @@
   justify-content: flex-start;
 }
 
-.h-left input {
-  background-color: white;
-  border-radius: 10px;
+#left-input {
+  width: 300px !important;
   margin-left: 20px;
-  border: none;
-  height: 30px;
 }
-
 .h-center {
   display: flex;
   flex: 1;

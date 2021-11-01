@@ -17,7 +17,11 @@ function Header() {
     <div className="h">
       <div className="h-left">
         <i className="nes-icon facebook is-medium"></i>
-        {/* <input type="text" id="name_field" className="h-left-input" size="15" /> */}
+        <input
+          type="text"
+          id="left-input"
+          className=" h-left-input nes-input "
+        />
       </div>
       <div className="h-center">
         <div className="h-center-option nes-btn">
