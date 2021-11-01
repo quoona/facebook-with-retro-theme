@@ -24,9 +24,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px 0px;
+  padding: 5px 5px;
+  transition: all 0.5s ease;
 }
 
 .username {
   margin: 10px 15px;
+}
+
+.f-avatar:hover {
+  background-color: rgb(219, 219, 219);
+  border-radius: 20px;
 }

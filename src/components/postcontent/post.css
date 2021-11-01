@@ -31,8 +31,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.5s ease;
 }
 
 .p-optional > p {
   margin: 10px 0 15px 5px;
+}
+
+.p-optional:hover {
+  background-color: rgb(204, 200, 200);
+  border-radius: 10px;
 }
