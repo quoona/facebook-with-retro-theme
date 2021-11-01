@@ -1,0 +1,38 @@
+.p {
+  display: flex;
+  flex: 1;
+  padding: 15px 0px 20px;
+  justify-content: center;
+  top: 0;
+  width: 100%;
+}
+
+.p-top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 10px;
+}
+
+.p-top > p {
+  margin-left: 15px;
+}
+
+.p-optional-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+
+.p-optional {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-optional > p {
+  margin: 10px 0 15px 5px;
+}

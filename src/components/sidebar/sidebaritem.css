@@ -1,0 +1,48 @@
+.sbi {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0px;
+}
+
+.sbi-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 10px 15px;
+}
+
+.sbi-avatar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.sbi-avatar > p {
+  margin: 10px 10px;
+}
+.sbi-item {
+  width: 200px;
+}
+
+.sbi-item > p {
+  margin: 0 10px;
+}
+
+#btn-0 {
+  margin-top: 20px;
+}
+#btn-1 {
+  margin-top: 20px;
+}
+
+#btn-2 {
+  margin-top: 20px;
+}
+
+#btn-3 {
+  margin-top: 20px;
+}
+
+#btn-4 {
+  margin-top: 20px;
+}

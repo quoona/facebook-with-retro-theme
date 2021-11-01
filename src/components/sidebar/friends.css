@@ -1,0 +1,32 @@
+.f {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+  margin-top: 20px;
+}
+
+.f-top-sidebar {
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.f-wrapper {
+  display: flex;
+}
+
+.f-option {
+  padding: 10px 10px;
+}
+
+.f-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0px;
+}
+
+.username {
+  margin: 10px 15px;
+}

@@ -1,0 +1,83 @@
+.h {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 20px;
+  /* box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75); */
+  border-bottom: 3px solid gray;
+  position: sticky;
+}
+
+.h-left {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.h-left input {
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 20px;
+  border: none;
+  height: 30px;
+}
+
+.h-center {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.h-center-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 50px;
+  margin-left: 20px;
+  /* border-radius: 10px; */
+  transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+}
+
+.h-center-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.h-center-option:hover {
+  background-color: #eff2f5;
+}
+
+.h-right {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.h-right-option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.h-right-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.h-right-option:hover {
+  background-color: #eff2f5;
+}
+
+.h-username {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
