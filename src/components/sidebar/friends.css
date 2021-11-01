@@ -7,7 +7,7 @@
 
 .f-top-sidebar {
   display: flex;
-  width: 300px;
+
   justify-content: space-around;
   align-items: baseline;
 }
@@ -34,5 +34,5 @@
 
 .f-avatar:hover {
   background-color: rgb(219, 219, 219);
-  border-radius: 20px;
+  border-radius: 10px;
 }

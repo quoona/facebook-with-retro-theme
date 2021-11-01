@@ -1,6 +1,4 @@
 .b {
   display: flex;
-  height: 100vh;
   background-color: white;
-  flex: 1;
 }

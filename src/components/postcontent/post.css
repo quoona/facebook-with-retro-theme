@@ -1,10 +1,11 @@
 .p {
-  display: flex;
+  /* display: flex; */
   flex: 1;
   padding: 15px 0px 20px;
   justify-content: center;
   top: 0;
   width: 100%;
+  /* position: inherit; */
 }
 
 .p-top {
@@ -31,7 +32,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.5s ease;
+  /* transition: all 0.5s linear; */
 }
 
 .p-optional > p {
@@ -39,6 +40,11 @@
 }
 
 .p-optional:hover {
-  background-color: rgb(204, 200, 200);
-  border-radius: 10px;
+  /* background-color: rgb(204, 200, 200); */
+  box-shadow: rgb(116, 116, 117) 0px 0px 0px 2px,
+    rgb(51, 51, 51) 0px 0px 0px 5px, rgb(37, 37, 37) 0px 0px 0px 7px;
+}
+
+#nes-container {
+  margin: 25px 20px;
 }

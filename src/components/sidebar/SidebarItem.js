@@ -32,10 +32,18 @@ function SidebarItem() {
           <i class="nes-icon size-1x users"></i>
           <p>Group</p>
         </div>
-        <div id="btn-3" className="sbi-item nes-btn is-warning  ">
+        {/* <div id="btn-3" className="sbi-item nes-btn is-warning  ">
           <i class="nes-icon size-1x github"></i>
           <p>Github</p>
-        </div>
+        </div> */}
+        <a
+          id="btn-3"
+          className="sbi-item nes-btn is-warning"
+          href="https://github.com/quoona"
+        >
+          <i class="nes-icon size-1x github"></i>
+          <p>Github</p>{" "}
+        </a>
       </div>
     </div>
   );

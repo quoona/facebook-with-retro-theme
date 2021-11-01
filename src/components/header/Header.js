@@ -16,7 +16,7 @@ function Header() {
   return (
     <div className="h">
       <div className="h-left">
-        <i class="nes-icon facebook is-medium"></i>
+        <i className="nes-icon facebook is-medium"></i>
         {/* <input type="text" id="name_field" className="h-left-input" size="15" /> */}
       </div>
       <div className="h-center">

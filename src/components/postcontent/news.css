@@ -1,0 +1,41 @@
+.n {
+  justify-content: center;
+  align-items: center;
+}
+.n-top {
+  display: flex;
+}
+
+.n-top-info {
+  margin-left: 20px;
+}
+
+.n-optional-wrapper {
+  display: flex;
+  padding: 10px 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.n-optional {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+.n-optional > p {
+  margin-left: 10px;
+}
+.n-optional:hover {
+  box-shadow: rgb(112, 112, 112) 0px 0px 0px 3px,
+    rgb(51, 51, 51) 0px 0px 0px 5px, rgb(37, 37, 37) 0px 0px 0px 6px;
+}
+.n-caption {
+  padding: 15px 0;
+  text-align: start;
+}
+
+.n-img-news > img {
+  width: 100%;
+}

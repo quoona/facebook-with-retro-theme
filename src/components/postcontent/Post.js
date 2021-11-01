@@ -5,7 +5,7 @@ import cat from "../../images/cat.jpg";
 function Post() {
   return (
     <div className="p">
-      <div className="nes-container with-title">
+      <div id="nes-container" className="nes-container with-title">
         <h3 className="title">Posts</h3>
         <div className="p-top">
           <img
