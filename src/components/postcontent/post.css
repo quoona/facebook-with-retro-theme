@@ -41,8 +41,8 @@
 
 .p-optional:hover {
   /* background-color: rgb(204, 200, 200); */
-  box-shadow: rgb(116, 116, 117) 0px 0px 0px 2px,
-    rgb(51, 51, 51) 0px 0px 0px 5px, rgb(37, 37, 37) 0px 0px 0px 7px;
+  box-shadow: rgb(80, 80, 82) 0px 0px 0px 2px, rgb(51, 51, 51) 0px 0px 0px 5px,
+    rgb(37, 37, 37) 0px 0px 0px 7px;
 }
 
 #nes-container {

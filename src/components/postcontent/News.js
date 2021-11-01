@@ -29,7 +29,7 @@ function News() {
           <img src={girl} alt="" style={{ imageRendering: "pixelated" }} />
         </div>
         <div className="n-optional-wrapper">
-          <div className="n-optional">
+          <div className="n-optional   ">
             <i className="nes-icon size-1x heart"></i>
             <p>Love</p>
           </div>
@@ -37,7 +37,7 @@ function News() {
             <i className="nes-icon size-1x comment"></i>
             <p>Comment</p>
           </div>
-          <div className="n-optional">
+          <div className="n-optional ">
             <i className="nes-icon size-1x caret-right"></i>
             <p>Share</p>
           </div>
