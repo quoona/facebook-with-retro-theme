@@ -25,15 +25,15 @@ function Post() {
         </div>
         <div className="p-optional-wrapper">
           <div className="p-optional">
-            <i class="nes-icon size-1x check"></i>
+            <i className="nes-icon size-1x check"></i>
             <p>Post</p>
           </div>
           <div className="p-optional">
-            <i class="nes-icon size-1x folder"></i>
+            <i className="nes-icon size-1x folder"></i>
             <p>Photos</p>
           </div>
           <div className="p-optional">
-            <i class="nes-icon size-1x youtube-square"></i>
+            <i className="nes-icon size-1x youtube-square"></i>
             <p>Live</p>
           </div>
         </div>

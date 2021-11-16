@@ -1,6 +1,7 @@
 import React from "react";
 import News from "../postcontent/News";
 import Post from "../postcontent/Post";
+import Friends from "../sidebar/Friends";
 import FriendSidebar from "../sidebar/FriendSidebar";
 import Sidebar from "../sidebar/Sidebar";
 import "./body.css";
@@ -10,7 +11,8 @@ function Body() {
     <div className="b">
       <Sidebar />
       <WrapperContent />
-      <FriendSidebar />
+      {/* <FriendSidebar /> */}
+      <Friends />
     </div>
   );
 }

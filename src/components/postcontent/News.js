@@ -9,14 +9,14 @@ import "nes.css/css/nes.min.css";
 function News() {
   return (
     <div className="n">
-      <div id="nes-container" className="nes-container is-rounded with-title">
+      <div id="nes-container" className=" nes-container is-rounded with-title">
         <h3 className="title">News</h3>
         <div className="n-top">
           <div className="n-top-avatar">
             <img
               src={cat}
               alt=""
-              className="n-avatar nes-avatar is-rounded  is-medium"
+              className="  n-avatar nes-avatar is-rounded  is-medium"
             />
           </div>
           <div className="n-top-info">
@@ -44,7 +44,7 @@ function News() {
         </div>
       </div>
 
-      <div id="nes-container" className="nes-container is-rounded with-title">
+      <div id="nes-container" className="  nes-container is-rounded with-title">
         <h3 className="title">News</h3>
         <div className="n-top">
           <div className="n-top-avatar">

@@ -9,18 +9,18 @@
 
 .h-left {
   display: flex;
-  flex: 1;
+  flex: 0;
   align-items: center;
   justify-content: flex-start;
 }
 
 #left-input {
-  width: 300px !important;
+  width: 230px !important;
   margin-left: 20px;
 }
 .h-center {
   display: flex;
-  flex: 1;
+  flex: 2;
   align-items: center;
   justify-content: space-around;
 }
@@ -32,7 +32,7 @@
   width: 100px;
   height: 50px;
   margin-left: 20px;
-  /* border-radius: 10px; */
+
   transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
 }
 

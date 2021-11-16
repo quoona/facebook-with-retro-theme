@@ -47,3 +47,7 @@
 .n-lovebtn {
   display: inline-flex !important;
 }
+
+.nes-container-space-around {
+  margin: 25px 20px;
+}

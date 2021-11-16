@@ -16,7 +16,13 @@ function Header() {
   return (
     <div className="h">
       <div className="h-left">
-        <i className="nes-icon facebook is-medium"></i>
+        {/* <i className="nes-icon facebook is-medium"></i> */}
+        <img
+          className="nes-avatar is-rounded is-medium"
+          style={{ imageRendering: "pixelated" }}
+          src="https://www.gravatar.com/avatar?s=15"
+          alt=""
+        />
         <input
           type="text"
           id="left-input"

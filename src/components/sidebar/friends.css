@@ -1,19 +1,25 @@
 .f {
   display: flex;
-  justify-content: space-between;
-  padding: 10px 25px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px 10px;
   margin-top: 20px;
 }
 
 .f-top-sidebar {
   display: flex;
-
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: baseline;
+}
+
+.f-contact {
+  display: flex;
+  align-items: center;
 }
 
 .f-wrapper {
   display: flex;
+  margin-left: 50px;
 }
 
 .f-option {
@@ -23,16 +29,10 @@
 .f-avatar {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 5px 5px;
-  transition: all 0.5s ease;
 }
 
 .username {
   margin: 10px 15px;
-}
-
-.f-avatar:hover {
-  background-color: rgb(219, 219, 219);
-  border-radius: 10px;
 }
